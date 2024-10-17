@@ -7,9 +7,13 @@ This project implements a lightweight SQLite-like interface in Ruby, allowing us
 ## Features
 
 __Chained SQL-like queries__: Build queries progressively by chaining method calls.
-__Supported operations__: ```SELECT```, ```INSERT```, ```UPDATE```, ```DELETE```, ```JOIN```, and ```ORDER```.
+
+__Supported operations__: ```SELECT```, ```INSERT```, ```UPDATE```, ```DELETE```, ```JOIN```, and ```ORDER```
+
 __Data source__: Operates on CSV files, which act as the database tables.
+
 __Simple join operations__: Supports one JOIN and one WHERE clause per request.
+
 __Interactive CLI__: A command-line interface that allows SQL-like interaction with CSV files.
 
 ## Usage
